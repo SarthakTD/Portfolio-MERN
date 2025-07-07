@@ -26,8 +26,8 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.jpg";
-import Student from "./Student.jpg";
+import carrent from "./carrent.png";
+import Student from "./Student.png";
 import Floood from "./Floood.jpg";
 
 export {
