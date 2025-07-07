@@ -25,6 +25,7 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import HakkerRank from "./certificate/HakkerRank.png";
 
 import carrent from "./carrent.png";
 import Student from "./Student.png";
@@ -59,4 +60,5 @@ export {
   carrent,
   Student,
   Floood,
+  HakkerRank,
 };
