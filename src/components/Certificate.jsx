@@ -7,7 +7,7 @@ import { styles } from '../styles';
 const certificates = [
     {
         title: "Java-(Basic)",
-        image: "src/assets/certificate/HakkerRank.png",
+        image: "assets/certificate/HakkerRank.png",
         link: "https://www.hackerrank.com/certificates/iframe/6441d1a0d42f"
     },
     {
