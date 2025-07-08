@@ -18,7 +18,7 @@ const DownloadCV = () => {
         className="mt-10 flex justify-center"
       >
         <a
-          href="src/assets/Resume/Sarthak_Resume.pdf"
+          href="/Sarthak_Resume.pdf"
           download
           className="relative group inline-flex items-center gap-3 px-8 py-4 text-white font-semibold rounded-xl bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-indigo-600 hover:to-purple-600 transition-all duration-300 shadow-xl"
         >
