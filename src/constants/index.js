@@ -260,33 +260,7 @@ const projects = [
     source_code_link: "",
   },
 ];
-const certificates = [
-  {
-    title: "Java-(Basic)",
-    image: "/HakkerRank.png",
-    link: "https://www.hackerrank.com/certificates/iframe/6441d1a0d42f",
-  },
-  {
-    title: "C++ Programming",
-    image: "/GreatLearning.png",
-    link: "https://www.mygreatlearning.com/certificate/PDMWTLLT",
-  },
-  {
-    title: "Generative AI",
-    image: "/simpli.jpg",
-    link: "https://lnk.ink/92nhm",
-  },
-  {
-    title: "Programming in Java",
-    image: "/Np.png",
-    link: "https://drive.google.com/file/d/1uBocuI8k03ZGPrc1k6ZO7ZNdL1Ez9_zw/view?usp=sharing",
-  },
-  {
-    title: "Front End Development",
-    image: "/GreatLearning.png",
-    link: "https://www.mygreatlearning.com/certificate/XIOYJJMC",
-  },
-];
 
 
-export { services, technologies, experiences, testimonials, projects,certificates };
+
+export { services, technologies, experiences, testimonials, projects };
