@@ -3,8 +3,10 @@ import { motion } from 'framer-motion';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc'; // Assuming you use HOC
 import { styles } from '../styles';
+import { certificates } from "../constants";
 
-const certificates = [
+
+/*const certificates = [
     {
         title: "Java-(Basic)",
         image: "/HakkerRank.png",
@@ -30,7 +32,7 @@ const certificates = [
         image: "/GreatLearning.png",
         link: "https://www.mygreatlearning.com/certificate/XIOYJJMC"
     },
-];
+];*/
 
 const CertificateCard = ({ index, title, image, link }) => (
     <motion.div
