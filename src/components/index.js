@@ -8,8 +8,6 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
-import Certificate from './Certificate';
-
 
 export {
   Hero,
@@ -20,7 +18,6 @@ export {
   Works,
   Feedbacks,
   Contact,
-  Certificate,
   CanvasLoader,
   EarthCanvas, 
   BallCanvas, 
