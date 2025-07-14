@@ -71,6 +71,16 @@ const Hero = () => {
         </div>
 
         {/* Buttons */}
+        <div className="flex gap-4 mt-6">
+          <a
+            href="/Sarthak_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gradient-to-r from-[#6EE7B7] to-[#915EFF] px-6 py-3 rounded-full text-sm uppercase font-semibold hover:from-[#915EFF] hover:to-[#6EE7B7] transition"
+          >
+            Get Resume
+          </a>
+        </div>
         
       </div>
 
