@@ -1,7 +1,6 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import { FaTwitter } from "react-icons/fa";
 import Tilt from "react-parallax-tilt";
 
 const Hero = () => {
@@ -59,14 +58,6 @@ const Hero = () => {
             className="text-[#915EFF] hover:scale-125 transition-transform"
           >
             <BsLinkedin size={28} />
-          </a>
-          <a
-            href="https://twitter.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[#915EFF] hover:scale-125 transition-transform"
-          >
-            <FaTwitter size={28} />
           </a>
         </div>
 
