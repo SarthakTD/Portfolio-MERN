@@ -45,7 +45,7 @@ const Hero = () => {
         {/* Social Icons */}
         <div className="flex gap-6 mt-4">
           <a
-            href="https://github.com/sarthak"
+            href="https://github.com/SarthakTD"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#915EFF] hover:scale-125 transition-transform"
@@ -53,7 +53,7 @@ const Hero = () => {
             <BsGithub size={28} />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://linkedin.com/sarthak-dhembare-46ba64257"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#915EFF] hover:scale-125 transition-transform"
@@ -71,22 +71,7 @@ const Hero = () => {
         </div>
 
         {/* Buttons */}
-        <div className="flex gap-4 mt-6">
-          <a
-            href="#contact"
-            className="bg-gradient-to-r from-[#915EFF] to-[#6EE7B7] px-6 py-3 rounded-full text-sm uppercase font-semibold hover:from-[#6EE7B7] hover:to-[#915EFF] transition"
-          >
-            Contact Me
-          </a>
-          <a
-            href="/resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-gradient-to-r from-[#6EE7B7] to-[#915EFF] px-6 py-3 rounded-full text-sm uppercase font-semibold hover:from-[#915EFF] hover:to-[#6EE7B7] transition"
-          >
-            Get Resume
-          </a>
-        </div>
+        
       </div>
 
       {/* Right Side: Coding Card with Tilt and Shadow */}
