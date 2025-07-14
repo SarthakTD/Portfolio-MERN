@@ -2,6 +2,7 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import Tilt from "react-parallax-tilt";
+import { SectionWrapper } from "../hoc";
 
 const Hero = () => {
   const name = "Sarthak Dhembare";
