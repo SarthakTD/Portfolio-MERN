@@ -1,8 +1,8 @@
 import React from "react";
+import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   const name = "Sarthak Dhembare";
-  const designation = "Full Stack Developer";
   const skills = [
     "JavaScript",
     "React",
@@ -15,15 +15,31 @@ const Hero = () => {
   ];
 
   return (
-    <section className="relative w-full min-h-screen px-6 py-16 bg-[#0d1224] text-white flex flex-col lg:flex-row items-center justify-center gap-10">
-      {/* Intro Section */}
+    <section className="relative w-full min-h-screen px-6 py-16 bg-black text-white flex flex-col lg:flex-row items-center justify-center gap-10">
+      {/* Left Side: Introduction */}
       <div className="flex flex-col items-start justify-center lg:w-1/2 space-y-6">
         <h1 className="text-4xl lg:text-5xl font-bold">
           Hello, I'm <span className="text-pink-500">{name}</span>
         </h1>
-        <p className="text-xl text-[#16f2b3]">
-          I'm a Professional {designation}.
-        </p>
+
+        <TypeAnimation
+          sequence={[
+            "Full Stack Developer",
+            2000,
+            "MERN Stack Engineer",
+            2000,
+            "React.js Enthusiast",
+            2000,
+            "Problem Solver",
+            2000,
+          ]}
+          wrapper="span"
+          speed={50}
+          repeat={Infinity}
+          className="text-xl text-[#16f2b3] font-semibold"
+        />
+
+        {/* Social Links */}
         <div className="flex gap-4">
           <a
             href="https://github.com/sarthak"
@@ -50,6 +66,8 @@ const Hero = () => {
             Twitter
           </a>
         </div>
+
+        {/* Buttons */}
         <div className="flex gap-4">
           <a
             href="#contact"
@@ -68,13 +86,15 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Coding Card */}
+      {/* Right Side: Coding Card */}
       <div className="lg:w-1/2 w-full max-w-xl from-[#0d1224] border-[#1b2c68a0] rounded-lg border bg-gradient-to-r to-[#0a0d37] shadow-md">
-        {/* Top bar */}
+        {/* Top border gradient */}
         <div className="flex flex-row">
           <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600"></div>
           <div className="h-[1px] w-full bg-gradient-to-r from-violet-600 to-transparent"></div>
         </div>
+
+        {/* Browser dots */}
         <div className="px-4 lg:px-8 py-3">
           <div className="flex flex-row space-x-2">
             <div className="h-3 w-3 rounded-full bg-red-400"></div>
@@ -83,7 +103,7 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Code Content */}
+        {/* Code content */}
         <div className="overflow-x-auto border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-6">
           <code className="font-mono text-xs md:text-sm lg:text-base text-white">
             <div>
