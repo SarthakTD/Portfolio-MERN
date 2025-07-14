@@ -1,5 +1,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { FaTwitter } from "react-icons/fa";
 
 const Hero = () => {
   const name = "Sarthak Dhembare";
@@ -16,7 +18,7 @@ const Hero = () => {
 
   return (
     <section className="relative w-full min-h-screen px-6 py-16 bg-black text-white flex flex-col lg:flex-row items-center justify-center gap-10">
-      {/* Left Side: Introduction */}
+      {/* Left Side */}
       <div className="flex flex-col items-start justify-center lg:w-1/2 space-y-6">
         <h1 className="text-4xl lg:text-5xl font-bold">
           Hello, I'm <span className="text-pink-500">{name}</span>
@@ -39,36 +41,36 @@ const Hero = () => {
           className="text-xl text-[#16f2b3] font-semibold"
         />
 
-        {/* Social Links */}
-        <div className="flex gap-4">
+        {/* Social Icons */}
+        <div className="flex gap-6 mt-4">
           <a
             href="https://github.com/sarthak"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-pink-500 hover:scale-125 transition-all"
+            className="text-pink-500 hover:scale-125 transition-transform"
           >
-            GitHub
+            <BsGithub size={28} />
           </a>
           <a
             href="https://linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-pink-500 hover:scale-125 transition-all"
+            className="text-pink-500 hover:scale-125 transition-transform"
           >
-            LinkedIn
+            <BsLinkedin size={28} />
           </a>
           <a
             href="https://twitter.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-pink-500 hover:scale-125 transition-all"
+            className="text-pink-500 hover:scale-125 transition-transform"
           >
-            Twitter
+            <FaTwitter size={28} />
           </a>
         </div>
 
         {/* Buttons */}
-        <div className="flex gap-4">
+        <div className="flex gap-4 mt-6">
           <a
             href="#contact"
             className="bg-gradient-to-r from-violet-600 to-pink-500 px-6 py-3 rounded-full text-sm uppercase font-semibold hover:from-pink-500 hover:to-violet-600 transition"
@@ -88,13 +90,13 @@ const Hero = () => {
 
       {/* Right Side: Coding Card */}
       <div className="lg:w-1/2 w-full max-w-xl from-[#0d1224] border-[#1b2c68a0] rounded-lg border bg-gradient-to-r to-[#0a0d37] shadow-md">
-        {/* Top border gradient */}
+        {/* Top gradient lines */}
         <div className="flex flex-row">
           <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600"></div>
           <div className="h-[1px] w-full bg-gradient-to-r from-violet-600 to-transparent"></div>
         </div>
 
-        {/* Browser dots */}
+        {/* Fake browser dots */}
         <div className="px-4 lg:px-8 py-3">
           <div className="flex flex-row space-x-2">
             <div className="h-3 w-3 rounded-full bg-red-400"></div>
@@ -103,7 +105,7 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Code content */}
+        {/* Code Content */}
         <div className="overflow-x-auto border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-6">
           <code className="font-mono text-xs md:text-sm lg:text-base text-white">
             <div>
