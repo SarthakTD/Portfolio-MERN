@@ -52,7 +52,7 @@ const Hero = () => {
             <BsGithub size={28} />
           </a>
           <a
-            href="www.linkedin.com/in/sarthak-dhembare-46ba64257"
+            href="https://linkedin.com/in/sarthak-dhembare-46ba64257"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#915EFF] hover:scale-125 transition-transform"
